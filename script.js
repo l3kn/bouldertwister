@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-  console.log("ready");
   var bodyparts = [
     "rechte Hand",
     "linke Hand",
@@ -9,8 +8,7 @@ $( document ).ready(function() {
 
   var inputs = document.getElementsByTagName("input")
 
-  $(document).click(function() {
-    console.log("click");
+  $(document).on("tap click",function(){
     var colors = []
 
     for (var i = 0; i < inputs.length; i++) {
