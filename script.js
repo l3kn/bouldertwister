@@ -25,3 +25,6 @@ function roll() {
   var random = Math.floor(Math.random() * colors.length);
   element2.innerHTML = colors[random];
 }
+
+document.onclick = roll;
+document.ontouchstart = roll;
