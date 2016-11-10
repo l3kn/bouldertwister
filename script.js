@@ -8,7 +8,6 @@ var bodyparts = [
 var element1 = document.getElementById("bodypart")
 var element2 = document.getElementById("color")
 var inputs = document.getElementsByTagName("input")
-console.log(element1);
 
 function roll() {
   var colors = [];
